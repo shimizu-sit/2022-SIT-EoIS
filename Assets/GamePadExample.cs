@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Input;
+using UnityEngine.InputSystem;
 
 public class GamePadExample : MonoBehaviour
 {
@@ -24,9 +24,9 @@ public class GamePadExample : MonoBehaviour
 
     void OnGUI()
     {
-        if (GamepadSpeakerOutputType.current == null) return;
+        if (Gamepad.current == null) return;
 
-        GUILayout.Label($"leftStick:{Gamepad.current.leftSticl.ReadValue()}");
+        GUILayout.Label($"leftStick:{Gamepad.current.leftStick.ReadValue()}");
         GUILayout.Label($"buttonNorth:{Gamepad.current.buttonNorth.isPressed}");
         GUILayout.Label($"buttonSouth: {Gamepad.current.buttonSouth.isPressed}");
         GUILayout.Label($"buttonEast: {Gamepad.current.buttonEast.isPressed}");
