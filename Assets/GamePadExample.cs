@@ -10,8 +10,7 @@ public class GamePadExample : MonoBehaviour
     {
         // ゲームパッドが接続されていないとnullになる
         if (Gamepad.current == null) return;
-
-        if (GamePadExample.current.button)
+        //if (GamePadExample.current.button)
 
     }
 
