@@ -1,56 +1,38 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,emacs,unity,visualstudio,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,emacs,unity,visualstudio,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/unity,macos,visualstudiocode,windows,visualstudio
+# Edit at https://www.toptal.com/developers/gitignore?templates=unity,macos,visualstudiocode,windows,visualstudio
 
-### Emacs ###
-# -*- mode: gitignore; -*-
-*~
-\#*\#
-/.emacs.desktop
-/.emacs.desktop.lock
-*.elc
-auto-save-list
-tramp
-.\#*
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Org-mode
-.org-id-locations
-*_archive
+# Icon must end with two \r
+Icon
 
-# flymake-mode
-*_flymake.*
 
-# eshell files
-/eshell/history
-/eshell/lastdir
+# Thumbnails
+._*
 
-# elpa packages
-/elpa/
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
 
-# reftex files
-*.rel
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-# AUCTeX auto folder
-/auto/
-
-# cask packages
-.cask/
-dist/
-
-# Flycheck
-flycheck_*.el
-
-# server auth directory
-/server/
-
-# projectiles files
-.projectile
-
-# directory configuration
-.dir-locals.el
-
-# network security
-/network-security.data
-
+### macOS Patch ###
+# iCloud generated files
+*.icloud
 
 ### Unity ###
 # This .gitignore file should be placed at the root of your Unity project directory
@@ -396,6 +378,7 @@ _pkginfo.txt
 # Others
 ClientBin/
 ~$*
+*~
 *.dbmdl
 *.dbproj.schemaview
 *.jfm
@@ -550,4 +533,4 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,emacs,unity,visualstudio,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/unity,macos,visualstudiocode,windows,visualstudio
